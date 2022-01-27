@@ -1,0 +1,7 @@
+[submodule "nginx"]
+	path = nginx
+	url = git@github.com:nginx/nginx.git
+	ignore = dirty
+[submodule "modules/libjsonz"]
+	path = modules/libjsonz
+	url = git@github.com:H2CO3/libjsonz.git

@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Admin Panel</title>
+		<link rel="icon" href="favicon.png">
+		<link rel="stylesheet" href="style.css">
+		<script type="module" src="script.js"></script>
+	</head>
+	<body>
+		<nav>
+			<a class="nav-header" href="#"><h2>Каталог товаров</h2></a>
+			<ul id="categories-ul"></ul>
+		</nav>
+		<main>
+			<section id="category-section">
+				<button class="button-main" id="category-add-open">Добавить категорию</button>
+				<table id="category-table"></table>
+				<dialog id="category-add-dialog">
+					<form id="category-add-form">
+						<h3>Добавить категорию</h3>
+						<p>
+							<label for="name">Название категории</label>
+							<input name="name">
+						</p>
+						<p>
+							<label for="link">Ссылка категории</label>
+							<input name="link">
+						<p>
+					</form>
+					<p>
+						<button class="button-add" id="category-add-button">Добавить</button>
+						<button class="button-close" id="category-add-close">Закрыть</button>
+					</P>
+				</dialog>
+			</section>
+		</main>
+	</body>
+</html>
