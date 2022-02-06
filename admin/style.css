@@ -1,0 +1,65 @@
+body {
+	--nav-bg-color: #eee;
+	--input-border-color: #aaa;
+	--button-bg-add: #4caf50;
+	--button-bg-close: #d32f2f;
+	--button-text-color: #fff;
+	--text-color: #111;
+	margin: 0px;
+}
+
+nav {
+	background: var(--nav-bg-color);
+	position: fixed;
+	height: 100%;
+	width: 300px;
+}
+
+.nav-header {
+	text-align: center;
+	color: var(--text-color);
+}
+
+main {
+	position: absolute;
+	min-height: 100%;
+	width: calc(100% - 300px);
+	text-align: center;
+	left: 300px;
+}
+
+button {
+	color: var(--button-text-color);
+	border-radius: 5px;
+	font-size: 120%;
+	cursor: pointer;
+	padding: 10px;
+	border: none;
+}
+
+.button-main {
+	margin: 10px auto;
+}
+
+.button-add, .button-main {
+	background: var(--button-bg-add);
+}
+
+.button-close {
+	background: var(--button-bg-close);
+}
+
+input {
+	border: 1px solid var(--input-border-color);
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.input-alert {
+	border: 1px solid var(--button-bg-close);
+}
+
+dialog {
+	color: var(--text-color);
+	border: none;
+}

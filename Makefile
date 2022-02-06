@@ -150,7 +150,7 @@ NGX_CONFIGURE := $(NGX_CONFIGURE) --without-pcre2
 # NGX_CONFIGURE := $(NGX_CONFIGURE) --with-openssl-opt=OPTIONS
 # NGX_CONFIGURE := $(NGX_CONFIGURE) --with-debug
 
-HTML_FILE_TYPES := html css js woff svg
+HTML_FILE_TYPES := html css js png
 CONF_FILE_TYPES := conf
 DATA_FILE_TYPES :=
 MODS_FILE_TYPES := c h
